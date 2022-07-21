@@ -1,0 +1,68 @@
+
+/* CSS里这样注释 */
+
+html {
+    /* 字号 */
+    font-size: 10px;
+    /* 字体 */
+    font-family:'Open Sans', sans-serif;
+    /* 页面颜色 */
+    background-color: #00539f;
+}
+
+
+h1 {
+    /* 字号 */
+    font-size: 30px;
+    /* 居中显示 */
+    text-align: center;
+}
+
+
+p, li {
+    font-size: 10px;
+    /* 行高 */
+    line-height: 2;
+    /* 字符间距 */
+    letter-spacing: 1px;
+}
+
+
+
+/* 设置文档体格式 */
+body {
+    /* 强制页面保持400pixels */
+    width: 400px;
+    
+    margin: 0 auto;
+
+    background-color: #ff9500;
+
+    padding: 0 20px 20px 20px;
+
+    border: 5px solid black;
+}
+
+
+
+/* 定位页面主标题并添加样式 */
+h1 {
+    margin: 0;
+
+    padding: 20px 0;
+
+    color: #00539f;
+
+    text-shadow: 2px 2px 1px black;
+
+}
+
+
+
+/* 图像居中 */
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
